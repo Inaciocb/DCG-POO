@@ -5,10 +5,9 @@ package pasta1;
 public class Main {
     public static void main(String[] args) {
             Conta contaVinicius =  new Conta();
-            Conta contaJoao = new Conta();
             contaVinicius.saldo = 100;
-            contaJoao.saldo = 200;
-            System.out.println("Saldo: " + contaVinicius.saldo);
+            contaVinicius.saque(60);
+            contaVinicius.deposito(20);
     }
     }
 }
