@@ -1,6 +1,6 @@
 package pasta1;
 public class Conta {
-    public double saldo;
+    private double saldo;
     public void saque(double valor){
         if (valor > this.saldo) {
             System.out.println("Saldo insuficiente! ");
