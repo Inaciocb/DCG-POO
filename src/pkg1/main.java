@@ -4,10 +4,10 @@ package pasta1;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-            Conta contaVinicius =  new Conta();
-            contaVinicius.saldo = 100;
-            contaVinicius.saque(60);
-            contaVinicius.deposito(20);
-    }
+            Conta contaInacio =  new Conta();
+            contaInacio.saldo = 100;
+            contaInacio.saque(110);
+            contaInacio.deposito(20);
+            System.out.println("Saldo: R$ " + contaInacio.saldo);
     }
 }
