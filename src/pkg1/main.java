@@ -6,8 +6,9 @@ public class Main {
     public static void main(String[] args) {
             Conta contaInacio =  new Conta();
             contaInacio.saldo = 100;
-            contaInacio.saque(110);
+            contaInacio.saque(60);
             contaInacio.deposito(20);
-            System.out.println("Saldo: R$ " + contaInacio.saldo);
+            contaInacio.setSaldo(300);
+            System.out.println("Saldo: R$ " + contaInacio.getSaldo());
     }
 }
