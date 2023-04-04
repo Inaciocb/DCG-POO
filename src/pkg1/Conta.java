@@ -1,6 +1,8 @@
 package pasta1;
 public class Conta {
     private double saldo;
+
+    public String titular;
     public void saque(double valor){
         if (valor > this.saldo) {
             System.out.println("Saldo insuficiente! ");
@@ -16,5 +18,16 @@ public class Conta {
     }
     public void setSaldo(double saldo) {
         this.saldo = saldo;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+    public void setTitular(String titular) {
+        this.titular = titular;
+    }
+    public void transfer(double valor, Conta conta2) {
+        this.saque(valor);
+        conta2.setSaldo(conta2.getSaldo() + valor);
     }
 }
