@@ -1,4 +1,4 @@
-package pasta1;
+package Aula3;
 
 public class Retangulo {
     public double altura, largura;
