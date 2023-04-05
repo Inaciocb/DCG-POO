@@ -1,1 +1,1 @@
-# DCG Programação Orientada a Objetos
+# Disciplina Complementar de Graduação: Programação Orientada a Objetos
