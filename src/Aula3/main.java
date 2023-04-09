@@ -19,9 +19,7 @@ public class Main {
 
             System.out.println("Saldo: R$ " + contaInacio.getSaldo() + "\nTitular: " + contaInacio.getTitular());
         
-        
-        
-        
+       
             contaInacio.transfer(30, contaDaniel);
             System.out.println("Saldo novo do " + contaDaniel.getTitular() + " " + contaDaniel.getSaldo());
             System.out.println("Area do r1: " + r1.calcular_area(r1.altura, r1.largura));
